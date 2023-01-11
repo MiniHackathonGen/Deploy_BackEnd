@@ -38,9 +38,12 @@ import { ProjetoModule } from './projeto/projeto.module';
     autoLoadEntities: true,
   }),  
     
+    ProjetoModule,
+    TurmaModule,
+    GrupoModule
   ],
 
   controllers: [AppController],
-  providers: [AppService],
+  providers: [],
 })
 export class AppModule {}
