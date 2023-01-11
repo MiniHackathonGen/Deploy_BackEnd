@@ -1,7 +1,7 @@
 import { HttpException, HttpStatus, Injectable } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
 import { DeleteResult, Repository } from "typeorm";
-import { Turmas } from "../entities/Turma.entity";
+import { Turmas } from "../entities/turma.entity";
 
 @Injectable()
 export class TurmaService {
